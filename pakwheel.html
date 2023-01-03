@@ -1,0 +1,474 @@
+<!doctype html>
+<html>
+
+<head>
+    <title> PAKWHEEL</title>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link href="./pakwheel.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+
+    <div class="header">
+        <div class="logo"><img
+                src="https://wsa1.pakwheels.com/assets/new-pw-logo-white-b8b4c00b25fde9cc8f514dc4947c266a.svg"
+                width="150px" height="100px"
+                title="Buy & Sell Cars, Bikes & Autoparts - Find Car Prices, News & Reviews " /></div>
+        <ul class="nav-bar">
+            <li class="nav-bar-li" onclick="alert('Abay Kia Dekh raha hai Kch bhi nahi hai ')">Used Car</li>
+            <li class="nav-bar-li" onclick="alert('Pehlay Paisa to Jama Kar ')">New Cars</li>
+            <li class="nav-bar-li" onclick="alert('70 Pe khush Reh Agar mat soch itna ')">Bikes</li>
+            <li class="nav-bar-li" onclick="alert(' Pehlay Gadi to ley phir store dekhna')">Auto Store</li>
+            <li class="nav-bar-li" onclick="alert(' Teray Matlb wali yahan Nahi hai  ')">Videos</li>
+            <li class="nav-bar-li" onclick="alert(' Kia dekhnay aya hai  ')">Forums</li>
+            <li class="nav-bar-li" onclick="alert(' Raju Rastogi Blogs out of Stock  ')">Blogs</li>
+            <li class="nav-bar-li" onclick="alert('Jitna Dekh liya Kafi nahi hai  ')">MORE</li>
+            <li class="nav-bar-li">
+                <div class="dropdown">
+                    <button class="dropbtn">Post An Add
+                        <i class="icon-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">Sell Your Cars</a>
+                        <a href="#">Sell your Bikes</a>
+                        <a href="#">Sell Accessories</a>
+                    </div>
+                </div>
+
+            </li>
+        </ul>
+    </div>
+
+
+    <div class="container">
+        <section>
+            <h1 class="heading-1">Find Used Cars in Pakistan</h1>
+            <p class="para-1">With thousands of cars, We have just the right one for you</p>
+
+            <br />
+            <div class="search-bar">
+
+
+                <input type="carmake" id="make" name="carmake" placeholder="Car Make or Model" maxlength="100"
+                    required="required" class="filter-input"><select Name="Cities" class="cities">
+
+                    <option value="All Cities" selected hidden>All Cities </option>
+
+                    <option value="Khairpur"> Khair Pur</option>
+                    <option value="Larkana"> Larkana </option>
+                    <option value="Karachi"> Karachi </option>
+                    <option value="Lahore"> Lahore </option>
+                    <option value="Multan"> Multan </option>
+                    <option value="Peshawar"> Peshawar </option>
+                    <option value="Islamabad"> Islamabad </option>
+                    <option value="Swat"> Swat </option>
+                </select><select Name="Price range" class="price-range">
+                    <option value="Price Range" selected hidden>Price Range </option>
+                    <option value="100,000,0">10 Lack </option>
+
+                    <option value="200,000,0"> 20 lack</option>
+                    <option value="500,000"> 5 lac </option>
+                </select><button class="search">
+                    <i class="icon-search"></i>
+                </button>
+
+            </div>
+            <br />
+            <br />
+            <br />
+            <button class="filter-button" value="Click" onclick="alert(' What do you want ')">Advance filter
+                <i class="icon-caret-right"></i>
+            </button>
+        </section>
+    </div>
+
+    <div class="Main-container">
+        <fieldset class="feild-set">
+            <legend>
+                <h3>Sell your car on PakWheel and Get the best Price</h3>
+            </legend>
+            <div class="tmp-container clearfix">
+                <div class="tmp-left" >
+                    <h2 class="post-add">Post Your Add on PakWheel</h2></br>
+                    <ul class="list-items">
+                        <li class="list1" >
+                            Post your Ad for Free in 3 Easy Steps
+                        </li>
+
+                        <li class="list1">
+                            Get Genuine offers from Verified Buyers
+                        </li>
+
+                        <li class="list1">
+                            Sell your car Fast at the Best Price
+                        </li>
+                    </ul>
+                    <button class="add-button" >Post Your Add
+
+                    </button>
+                </div>
+                <div class="line"><span class="or">OR</span></div>
+                <div class="tmp-right">
+                    <h2 class="sell-pakwheel">Try PakWheel Sell it for Me</h2></br>
+
+                    <ul class="list-items">
+
+                        <li class="list1">
+
+                            Dedicated Sales Expert to Sell your Car
+                        </li>
+
+                        <li class="list1">
+                            We Bargain for you and share the Best Offer
+                        </li>
+
+                        <li class="list1">
+                            We ensure Safe & Secure Transaction
+                        </li>
+
+                    </ul>
+
+                    <button class="sell-button">Register Your Car
+
+                    </button>
+                </div>
+            </div>
+
+        </fieldset>
+        </br>
+
+    </div>
+
+
+    <div class="browse-car">
+        <h3 class="browse-car-heading">Browse Used Cars</h3>
+        <div class="browse-bar">
+            <ul>
+                <li class="nav-bar-lii">Category</li>
+                <li class="nav-bar-lii">City</li>
+                <li class="nav-bar-lii">Make</li>
+                <li class="nav-bar-lii">Model</li>
+                <li class="nav-bar-lii">Budget</li>
+                <li class="nav-bar-lii">Body Type</li>
+            </ul>
+
+        </div>
+
+
+        <!-- Car wala portion -->
+        <div class="image-family">
+            <div class="car1">
+
+                <img class="size-image"
+                    src="https://wsa2.pakwheels.com/assets/browse-more/car-ctg-automatic-bf29d6ed2c67432d0afa6a4cca8e6e5a.svg"
+                    title="Auto Car for Sale in Pakistan">
+
+                <h4>Auto Car</h4>
+            </div>
+
+
+            <div class="car1">
+
+                <img class="size-image"
+                    src="https://wsa4.pakwheels.com/assets/browse-more/car-ctg-family-cars-078acff5b2ef6aa9c056f6bade993f30.svg"
+                    title="Family Cars for sale in Pakistan">
+
+                <h4>Family Car</h4>
+
+            </div>
+            <div class="car1">
+
+                <img class="size-image"
+                    src="https://wsa1.pakwheels.com/assets/browse-more/car-ctg-big-f4544cb27849733ec3913cb6ad1de0f8.svg"
+                    title="Big Cars for sale in Pakistan">
+
+                <h4>Big Car</h4>
+            </div>
+
+
+            <div class="car1">
+
+                <img class="size-image"
+                    src="https://wsa4.pakwheels.com/assets/browse-more/car-ctg-small-f7a95153caa90855afe96e6b0510e9fe.svg"
+                    title="Small Cars for sale in Pakistan">
+
+                <h4>Small Car</h4>
+
+            </div>
+
+            <div class="car1">
+
+                <img class="size-image"
+                    src="https://wsa3.pakwheels.com/assets/browse-more/car-ctg-old-87229a52499cbdd0814e352ad8d3ae40.svg"
+                    title="Old Cars for sale in Pakistan">
+
+                <h4>Old Car</h4>
+
+            </div>
+            <div class="car1">
+
+                <img class="size-image"
+                    src="https://wsa1.pakwheels.com/assets/browse-more/car-ctg-imported-9490d70681ac77a13a0d0944bc9839cc.svg"
+                    title="Imported Cars for sale in Pakistan">
+
+                <h4>Imported Car</h4>
+
+            </div>
+
+
+
+
+
+            <div class="car1">
+
+                <img class="size-image"
+                    src="https://wsa4.pakwheels.com/assets/browse-more/car-ctg-1000cc-cars-c024e94ac3fb686ea9d6c75fa23510e3.svg"
+                    title="1000cc Cars for Sale in Pakistan">
+
+                <h4>1000cc Cars</h4>
+
+            </div>
+
+            <div class="car1">
+
+                <img class="size-image1"
+                    src="https://wsa4.pakwheels.com/assets/browse-more/car-ctg-low-mileage-59935120fc02798b51bf4d7c2072c7e2.svg"
+                    title="Low Mileage Cars for sale in Pakistan">
+
+                <h4>Low Mileage Cars</h4>
+
+            </div>
+            <div class="car1">
+
+                <img class="size-image"
+                    src="https://wsa2.pakwheels.com/assets/browse-more/car-ctg-japanese-6fb37c0e61142fc12af2b2e73a2a11ff.svg"
+                    title="Japanese Cars for sale in Pakistan">
+
+                <h4>Japanese Car</h4>
+
+            </div>
+
+            <div class="car1">
+
+                <img class="size-image"
+                    src="https://wsa2.pakwheels.com/assets/browse-more/car-ctg-1300cc-cars-98fe0baa7b3171f120ab5c0fa8a8cdc1.svg"
+                    title="1300cc Cars for sale in Pakistan">
+
+                <h4>1300cc Cars</h4>
+
+            </div>
+
+            <div class="car1">
+
+                <img class="size-image"
+                    src="https://wsa3.pakwheels.com/assets/browse-more/car-ctg-low-priced-d4ca57feb169d8d6ac075501dd1f9012.svg"
+                    title="Low Priced Cars for sale in Pakistan">
+
+                <h4>Low Priced Car</h4>
+
+            </div>
+            <div class="car1">
+
+                <img class="size-image"
+                    src="https://wsa3.pakwheels.com/assets/browse-more/car-ctg-660cc-cars-9bcac91ae02272b5a96f227f9ff1c287.svg"
+                    title="660cc Cars for sale in Pakistan">
+
+                <h4>660cc Cars</h4>
+
+            </div>
+
+            <!-- <div class="Cars-left">
+                    
+                    
+                </div> -->
+
+
+
+        </div>
+    </div>
+
+
+    <h2 class="explore-product-heading">Explore Products by PakWheel </h2>
+    <div class="explore-product-container">
+        <div class="certified-cars">
+            <div class="certifiedimage">
+                <img class="image-size2"
+                    src="https://wsa2.pakwheels.com/assets/pw-certified-e59a8598eee3baaa3bb51f2c2769a78f.svg">
+            </div>
+            <div class="certified-content">
+                <h3 class="certified-heading">PakWheel Certified Cars</h3>
+                <p>Highest Quality Cars with Warranty from PakWheels.</p>
+            </div>
+        </div>
+
+
+
+
+        <div class="certified-cars">
+            <div class="certifiedimage">
+                <img class="image-size2"
+                    src="https://wsa2.pakwheels.com/assets/pw-inspection-849cb6ced4920cd19181e3317126618d.svg">
+            </div>
+            <div class="certified-content">
+                <h3 class="certified-heading">PakWheels <span>Car Inspection </span></h3>
+                <p>200+ points inspection to guarantee your peace of Mind.</p>
+            </div>
+        </div>
+
+
+
+        <div class="certified-cars">
+            <div class="certifiedimage">
+                <img class="image-size2"
+                    src="https://wsa4.pakwheels.com/assets/auction-sheet-logo-ebf19d855fc7b2ff5ec2a081cc5b370c.svg">
+            </div>
+            <div class="certified-content">
+                <h3 class="certified-heading">Auction Sheet Verification</h3>
+                <p>Buy Japanese Car with Full Confidence with PakWheel Auction Sheet Verification.</p>
+            </div>
+        </div>
+
+
+        <div class="certified-cars">
+            <div class="certifiedimage">
+                <img class="image-size2"
+                    src="https://wsa2.pakwheels.com/assets/sifm-logo-20640083c4572b654a079a4e97c78cb1.svg">
+            </div>
+            <div class="certified-content">
+                <h3 class="certified-heading"></br>PakWheel Sell it For Me</h3>
+                <p>Lets PakWheels Sell your Car Hassle Free for You.</p>
+            </div>
+        </div>
+
+
+        <div class="certified-cars">
+            <div class="certifiedimage">
+                <img class="image-size2"
+                    src="https://wsa4.pakwheels.com/assets/car-finance-logo-332d555f940565ca849f05b9fc30eeab.svg">
+            </div>
+            <div class="certified-content">
+                <h3 class="certified-heading"></br>Car Finance</h3>
+                <p>Compare and apply for loan for New or Used Cars.</p>
+            </div>
+        </div>
+
+
+
+
+        <div class="certified-cars">
+            <div class="certifiedimage">
+                <img class="image-size2"
+                    src="https://wsa2.pakwheels.com/assets/car-insurance-logo-cd66a03c66ca7871229920995ff4c629.svg">
+            </div>
+            <div class="certified-content">
+                <h3 class="certified-heading">Car Insurance</h3>
+                <p>Compare and apply for car insurance for a safer ride</p>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <div class="logo-container">
+        <h2>New Cars by Make</h2>
+        <div class="logos-block">
+
+            <div class="logos">
+                <img class="logo-image"
+                    src="https://cache3.pakwheels.com/system/car_manufacturers/manufacturers/000/000/041/resized/Suzuki.png">
+                <h3 class="logos-heading"> Suzuki</h3>
+
+            </div>
+            <div class="logos">
+                <img class="logo-image"
+                    src="https://cache4.pakwheels.com/system/car_manufacturers/manufacturers/000/000/042/resized/Tyota.png">
+                <h3 class="logos-heading"> Toyota</h3>
+            </div>
+            <div class="logos">
+                <img class="logo-image"
+                    src="https://cache2.pakwheels.com/system/car_manufacturers/manufacturers/000/000/014/resized/Honda.png" onmouseover="src='./images/Honda_After.jpg'" onmouseout="src='https://cache2.pakwheels.com/system/car_manufacturers/manufacturers/000/000/014/resized/Honda.png'">
+                <h3 class="logos-heading"> Honda</h3>
+            </div>
+            <div class="logos">
+                <img class="logo-image"
+                    src="https://cache4.pakwheels.com/system/car_manufacturers/manufacturers/000/000/021/resized/KIA.png">
+                <h3 class="logos-heading"> KIA</h3>
+            </div>
+            <div class="logos">
+                <img class="logo-image"
+                    src="https://cache3.pakwheels.com/system/car_manufacturers/manufacturers/000/000/016/resized/hyundai.png">
+                <h3 class="logos-heading"> Hyundai</h3>
+            </div>
+            <div class="logos">
+                <img class="logo-image"
+                    src="https://cache3.pakwheels.com/system/car_manufacturers/manufacturers/000/000/068/resized/1.jpg">
+                <h3 class="logos-heading"> Changan</h3>
+
+            </div>
+            <div class="logos">
+                <img class="logo-image"
+                    src="https://cache1.pakwheels.com/system/car_manufacturers/manufacturers/000/000/060/resized/580b57fcd9996e24bc43c498.png">
+                <h3 class="logos-heading"> MG</h3>
+
+            </div>
+            <div class="logos">
+                <img class="logo-image"
+                    src="https://cache1.pakwheels.com/system/car_manufacturers/manufacturers/000/000/003/resized/BMW.png">
+                <h3 class="logos-heading"> BMW</h3>
+
+            </div>
+            <div class="logos">
+                <img class="logo-image"
+                    src="https://cache4.pakwheels.com/system/car_manufacturers/manufacturers/000/000/053/resized/Audi.png">
+                <h3 class="logos-heading"> Audi</h3>
+
+            </div>
+            <div class="logos">
+                <img class="logo-image"
+                    src="https://cache1.pakwheels.com/system/car_manufacturers/manufacturers/000/000/080/resized/proton-logo-png-for-website.png">
+                <h3 class="logos-heading"> Proton</h3>
+
+            </div>
+            <div class="logos">
+                <img class="logo-image"
+                    src="https://cache4.pakwheels.com/system/car_manufacturers/manufacturers/000/000/113/resized/United.png">
+                <h3 class="logos-heading"> United</h3>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="footer">
+        <div class="footer">
+            <div class="footer-container">
+
+
+                <div id="button-java">
+                    <button class="filter-button">JavaWala Button
+
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+
+</body>
+
+</html>
